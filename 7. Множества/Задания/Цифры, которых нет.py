@@ -1,11 +1,1 @@
-"""n=input()
-s=set()
-x=set("123456789")
-for c in n:
-    s.add(c)
-c = x.difference(s)
-if len(c)==0:
-    print('no')
-else:
-    print(*c,sep='')
-print(x)"""
+print(''.join(sorted(list(n), reverse=True)) if len(n := set("1234567890").difference(set(input()))) > 0 else "NO")

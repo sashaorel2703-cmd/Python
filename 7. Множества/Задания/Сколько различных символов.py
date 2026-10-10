@@ -1,8 +1,1 @@
-n=input()
-s=set()
-for c in n:
-    s.add(c)
-
-
-
-print(len(s))
+print(len(set(input())))
